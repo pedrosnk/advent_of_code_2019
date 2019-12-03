@@ -1,13 +1,13 @@
 defmodule Day01 do
   def part1 do
-    File.read!("priv/day01_1.txt")
+    File.read!("priv/day01.txt")
     |> String.split()
     |> calculate()
     |> Enum.sum()
   end
 
   def part2 do
-    File.read!("priv/day01_1.txt")
+    File.read!("priv/day01.txt")
     |> String.split()
     |> calculate2()
     |> Enum.sum()
