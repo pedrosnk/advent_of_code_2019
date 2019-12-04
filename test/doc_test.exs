@@ -1,4 +1,4 @@
-defmodule Day02Test do
+defmodule ProjectTests do
   use ExUnit.Case
   doctest Day02
 end
